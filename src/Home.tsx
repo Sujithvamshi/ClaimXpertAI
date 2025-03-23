@@ -43,7 +43,7 @@ export default function Home() {
         </motion.button>
         <motion.button
           className="btn transitions"
-          onClick={() => navigate("/claim")}
+          onClick={() => navigate("/claims")}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
